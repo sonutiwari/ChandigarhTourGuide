@@ -17,6 +17,10 @@
             android:icon="@drawable/ic_shop"
             android:title="@string/shop_mania" />
         <item
+            android:id="@+id/hotels"
+            android:icon="@drawable/ic_hotel"
+            android:title="@string/hotels" />
+        <item
             android:id="@+id/about_the_city"
             android:icon="@drawable/ic_info"
             android:title="@string/about_chandigarh" />

@@ -53,15 +53,4 @@ public class Location {
         this.imageIdOfThePlace = imageIdOfThePlace;
     }
 
-    // toString method.
-
-    @Override
-    public String toString() {
-        return "Location{" +
-                "nameOfThePlace='" + nameOfThePlace + '\'' +
-                ", descriptionOfThePlace='" + descriptionOfThePlaceId + '\'' +
-                ", linkOfWikipediaPage='" + linkOfWikipediaPage + '\'' +
-                ", imageIdOfThePlace='" + imageIdOfThePlace + '\'' +
-                '}';
-    }
 }

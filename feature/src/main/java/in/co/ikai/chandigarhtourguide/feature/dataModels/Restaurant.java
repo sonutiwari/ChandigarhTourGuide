@@ -62,16 +62,4 @@ public class Restaurant {
     public void setRestaurantImageId(int restaurantImageId) {
         this.restaurantImageId = restaurantImageId;
     }
-
-    // To string method.
-    @Override
-    public String toString() {
-        return "Restaurant{" +
-                "restaurantName='" + restaurantName + '\'' +
-                ", restaurantDescription='" + restaurantDescription + '\'' +
-                ", restaurantLocation='" + restaurantLocation + '\'' +
-                ", restaurantContact='" + restaurantContact + '\'' +
-                ", restaurantImageId=" + restaurantImageId +
-                '}';
-    }
 }

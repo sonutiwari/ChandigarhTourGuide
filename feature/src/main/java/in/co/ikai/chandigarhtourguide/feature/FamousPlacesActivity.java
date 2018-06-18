@@ -18,9 +18,6 @@ public class FamousPlacesActivity extends AppCompatActivity
 
     // Global objects.
     private ArrayList<Location> locationArrayList = new ArrayList<>();
-    private ListView famousPlacesListView;
-    private LocationAdapter mAdapter;
-    private LocationAdapter.FamousPlacesItemClickListener mListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,9 +31,9 @@ public class FamousPlacesActivity extends AppCompatActivity
         prepareData();
 
         // Getting reference of list and setting adapter.
-        famousPlacesListView = findViewById(R.id.list_famous_places);
-        mListener = this;
-        mAdapter = new LocationAdapter(this, locationArrayList, mListener);
+        ListView famousPlacesListView = findViewById(R.id.list_famous_places);
+        LocationAdapter.FamousPlacesItemClickListener mListener = this;
+        LocationAdapter mAdapter = new LocationAdapter(this, locationArrayList, mListener);
         famousPlacesListView.setAdapter(mAdapter);
 
         // Enabling back navigation.
@@ -48,27 +45,27 @@ public class FamousPlacesActivity extends AppCompatActivity
 
     public void prepareData() {
 
-        locationArrayList.add(new Location("Rock Garden"
+        locationArrayList.add(new Location(getString(R.string.name_rg)
                 , R.string.rock_garden_description
-                , "https://en.wikipedia.org/wiki/Rock_Garden_of_Chandigarh"
+                , getString(R.string.wiki_rg)
                 , R.drawable.rock_garden)
         );
 
-        locationArrayList.add(new Location("Rose Garden"
+        locationArrayList.add(new Location(getString(R.string.name_rose)
                 , R.string.rose_garden_description
-                , "https://en.wikipedia.org/wiki/Zakir_Hussain_Rose_Garden"
+                , getString(R.string.wiki_rosse)
                 , R.drawable.rose_garden)
         );
 
-        locationArrayList.add(new Location("Sukhna Lake"
+        locationArrayList.add(new Location(getString(R.string.name_sl)
                 , R.string.sukhna_lake_description
-                , "https://en.wikipedia.org/wiki/Sukhna_Lake"
+                , getString(R.string.wiki_sl)
                 , R.drawable.sukhna_lake)
         );
 
-        locationArrayList.add(new Location("Elante Mall"
+        locationArrayList.add(new Location(getString(R.string.name_elante)
                 , R.string.elante_description
-                , "https://en.wikipedia.org/wiki/Elante_Mall"
+                , getString(R.string.wiki_elante)
                 , R.drawable.elante_mall)
         );
     }

@@ -13,10 +13,7 @@ import in.co.ikai.chandigarhtourguide.feature.dataModels.ShoppingMall;
 
 public class FamousShopsActivity extends AppCompatActivity {
 
-    // declaring global objects.
-    private ListView shoppingMallListView;
     private ArrayList<ShoppingMall> shoppingMallArrayList = new ArrayList<>();
-    private ShoppingMallAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,13 +24,13 @@ public class FamousShopsActivity extends AppCompatActivity {
         setTitle(R.string.famous_restaurants);
 
         // Getting reference of listView;
-        shoppingMallListView = findViewById(R.id.shopping_mall_list_view);
+        ListView shoppingMallListView = findViewById(R.id.shopping_mall_list_view);
 
         // preparing data into array list.
         prepareData();
 
         // Setting Adapter.
-        mAdapter = new ShoppingMallAdapter(this, shoppingMallArrayList);
+        ShoppingMallAdapter mAdapter = new ShoppingMallAdapter(this, shoppingMallArrayList);
 
         // Setting adapter to list view.
         shoppingMallListView.setAdapter(mAdapter);
@@ -46,24 +43,23 @@ public class FamousShopsActivity extends AppCompatActivity {
     }
 
     private void prepareData() {
-        shoppingMallArrayList.add(new ShoppingMall("Elante Mall"
-                , "Plot No. 177/178A, Purv Marg, Industrial Area Phase 1" +
-                ", MW Area, Chandigarh, 160002", "11AM-9:30AM"
+        shoppingMallArrayList.add(new ShoppingMall(getString(R.string.name_elante)
+                , getString(R.string.address_elante), getString(R.string.opening_hrs_elante)
                 , "0172 500 5000"));
 
-        shoppingMallArrayList.add(new ShoppingMall("Shashtri market"
-                , "Sector 22 Market road sector 22 Chandigarh 160022"
-                , "Closes at 9PM"
-                , "No Phone No"));
+        shoppingMallArrayList.add(new ShoppingMall(getString(R.string.name_sm)
+                , getString(R.string.address_sm)
+                , getString(R.string.opening_hrs_sm)
+                , getString(R.string.no_ph_no)));
 
-        shoppingMallArrayList.add(new ShoppingMall("TDI Mall"
-                , "TDI MALL, 17D, Sector 17, Chandigarh, 160017"
-                , "Closes at 12AM"
+        shoppingMallArrayList.add(new ShoppingMall(getString(R.string.name_tdi)
+                , getString(R.string.address_tdi)
+                , getString(R.string.opening_hrs_tdi)
                 , "096460 89376"));
 
-        shoppingMallArrayList.add(new ShoppingMall("Glass Palace"
-                , "SCO-43, Madhya Marg, Sector 7-C, Chandigarh, 160019"
-                , "Closes 8PM"
+        shoppingMallArrayList.add(new ShoppingMall(getString(R.string.name_gp)
+                , getString(R.string.address_gp)
+                , getString(R.string.opening_hrs_gp)
                 , "076961 11122"));
     }
 

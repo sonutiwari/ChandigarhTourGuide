@@ -53,14 +53,4 @@ public class ShoppingMall {
         this.phoneNumberOfTheMall = phoneNumberOfTheMall;
     }
 
-    // To string method declaration.
-    @Override
-    public String toString() {
-        return "ShoppingMall{" +
-                "nameOfTheMall='" + nameOfTheMall + '\'' +
-                ", addressOfThemall='" + addressOfTheMall + '\'' +
-                ", openingHoursOfTheMall='" + openingHoursOfTheMall + '\'' +
-                ", phoneNumberOfTheMall='" + phoneNumberOfTheMall + '\'' +
-                '}';
-    }
 }

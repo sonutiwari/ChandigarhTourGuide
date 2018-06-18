@@ -60,4 +60,46 @@
     <string name="my_contact">+919056360543</string>
     <string name="famous_restaurants">Famous Restaurants</string>
     <string name="opening_hours">Opening Hours</string>
+    <string name="sonu_liked_profile">https://www.linkedin.com/in/sonu-tiwari/</string>
+    <string name="wiki_cdg">https://en.wikipedia.org/wiki/Chandigarh</string>
+    <string name="name_elante">Elante Mall</string>
+    <string name="address_elante">Plot No. 177/178A, Purv Marg, Industrial Area Phase 1, MW Area
+        , Chandigarh, 160002</string>
+    <string name="opening_hrs_elante">11AM-9:30AM</string>
+    <string name="name_sm">Shashtri market</string>
+    <string name="address_sm">Sector 22 Market road sector 22 Chandigarh 160022</string>
+    <string name="opening_hrs_sm">Closes at 9PM</string>
+    <string name="no_ph_no">No Phone No</string>
+    <string name="name_tdi">TDI Mall</string>
+    <string name="address_tdi">TDI MALL, 17D, Sector 17, Chandigarh, 160017</string>
+    <string name="opening_hrs_tdi">Closes at 12AM</string>
+    <string name="name_gp">Glass Palace</string>
+    <string name="address_gp">SCO-43, Madhya Marg, Sector 7-C, Chandigarh, 160019</string>
+    <string name="opening_hrs_gp">Closes 8PM</string>
+    <string name="name_rg">Rock Garden</string>
+    <string name="wiki_rg">https://en.wikipedia.org/wiki/Rock_Garden_of_Chandigarh</string>
+    <string name="name_rose">Rose Garden</string>
+    <string name="wiki_rosse">https://en.wikipedia.org/wiki/Zakir_Hussain_Rose_Garden</string>
+    <string name="name_sl">Sukhna Lake</string>
+    <string name="wiki_sl">https://en.wikipedia.org/wiki/Sukhna_Lake</string>
+    <string name="wiki_elante">https://en.wikipedia.org/wiki/Elante_Mall</string>
+    <string name="name_swagath">Swagath Restaurant And Bar</string>
+    <string name="desc_swagath">Mangalorean, Chettinad, Malabari and Mughlai seafood dishes
+        served in a refined dining room.</string>
+    <string name="address_swagath">SCO No.7, Madhya Marg, Sector 26, Chandigarh, 160019</string>
+    <string name="name_virgin">Virgin Courtyard</string>
+    <string name="desc_virgin">Mediterranean-style courtyard terrace restaurant offering a selection of Italian dishes and wines.</string>
+    <string name="address_virgin">SCO 1A, Madhya Marg, Sector 7-C, Sector 7C, Chandigarh, 160007</string>
+    <string name="name_pal">Pal Dhaba Chandigarh</string>
+    <string name="desc_pal">Established in 1968, this classic dhaba venue serves typical northern Indian fare with no fuss</string>
+    <string name="address_pal">SCO No.7, Madhya Marg, Sector 26, Chandigarh, 160019</string>
+    <string name="name_gng">Garlic And Greens</string>
+    <string name="desc_gng">One of the best location to enjoy your delicious food at Elante mall Chandigarh.</string>
+    <string name="address_gng">178–178A, Purv Marg, Industrial Area Phase I, Chandigarh, 160002</string>
+    <string name="famous_hotels">Famous Hotels</string>
+    <string name="name_jw">JW Marriott Hotel Chandigarh</string>
+    <string name="address_jw">Plot no: 6, Dakshin Marg, 35B, Sector 35, Chandigarh, 160035</string>
+    <string name="name_lalit">The LaLiT Chandigarh</string>
+    <string name="address_lalit">Rajiv Gandhi IT Park, DLF Commercial Complex, Chandigarh, 160101</string>
+    <string name="hotels">Hotels</string>
 </resources>

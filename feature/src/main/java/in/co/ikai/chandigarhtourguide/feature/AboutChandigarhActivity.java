@@ -11,6 +11,7 @@ import android.widget.Button;
 
 public class AboutChandigarhActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +27,7 @@ public class AboutChandigarhActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                String Url = "https://en.wikipedia.org/wiki/Chandigarh";
+                String Url = getString(R.string.wiki_cdg);
                 intent.setData(Uri.parse(Url));
                 startActivity(intent);
             }

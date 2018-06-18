@@ -25,7 +25,7 @@ public class AboutDeveloperActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                String Url = "https://www.linkedin.com/in/sonu-tiwari/";
+                String Url = getString(R.string.sonu_liked_profile);
                 intent.setData(Uri.parse(Url));
                 startActivity(intent);
             }
